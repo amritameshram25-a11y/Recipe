@@ -1,0 +1,43 @@
+*
+
+body{
+    font-family: Arial, sans-serif;
+    background-image: url("background image.jpeg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 0%;
+    padding: 20px;
+    text-align: center;
+}
+img {
+    height: 250px;
+    width: 250px;
+}
+div { 
+    border: 2px solid black;
+    display: inline-block;
+    background-color: pink;
+    padding: 20px;
+    margin: 15px;
+}
+p{
+    color:brown;
+}
+img:hover{
+    transform: scale(1.02);
+    box-shadow: 0 8px 25px;
+}
+h2:hover{
+    transform: scale(1.02);
+    box-shadow: 0 8px 25px;
+}
+
+li:hover{
+    transform: scale(1.02);
+    box-shadow: 0 8px 25 px;
+}
+p:hover{
+    transform: scale(1.02);
+    box-shadow: 0 8px 25px;
+}
